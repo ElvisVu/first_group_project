@@ -53,29 +53,15 @@
         </style>
 </head>
 <body>
-        <div class="page-content bg-white">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-warning">
-        <a class="navbar-brand" href="#">Yelp</a>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-        <a class="nav-link text-white" href="#">Write a Review</a>
-        </li>
-        <li class="nav-item">
-        <a class="nav-link text-white" href="#">Events</a>
-        </li>
-        <li class="nav-item text-white">
-        <a class="nav-link text-white" href="#">Talk</a>
-        </li>
-        </ul>
-        </div>
-        <div class="row">
-        <nav class="navbar">
-                <a class="nav-item nav-link" href="/signup">Sign Up</a>
-        <a class="nav-item nav-link" href="/login">Log In</a>
-        </nav>
+        <nav class="navbar border" >
+        <a href="" class="display-5">Yelp</a>
+        <div>
+        <a href="/logout"><input type="btn" class="btn btn-danger" value="Logout"></a>
         </div>
         </nav>
+        <div>
+            <h1>Edit Review</h1>
+        </div>
         <div class="container">
         <h2>Phils Coffee</h2>
                 <form action="">
@@ -92,7 +78,7 @@
                                 <label for="star1" title="text">1 star</label>
                 </div>
                         <div class="info">
-                        <textarea class="form-control" id="comment" rows="7"></textarea>
+                        <textarea class="form-control" id="comment" rows="7" placeholder="{{users.review}}"></textarea>
                         </div>
                         <br>
                         <div class = "col">
