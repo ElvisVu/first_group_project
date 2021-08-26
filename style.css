@@ -1,0 +1,43 @@
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-dark .navbar-brand {
+    margin: 0px 50px 0px 15px
+}
+
+img, svg{
+margin: 100px 0px 0px 450px;
+    height: 350px;
+}
+
+.input-group {
+    margin: 35px 0px 0px 0px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%;
+}
+
+.navbar .login-container {
+    float: right;
+    margin: 0px 0px 0px 1050px
+}
+
+element.style {
+    background-image: url(file:///Users/sephtecs/Downloads/food.jpeg);
+    background-size: cover;
+    height: 600px;
+}
+
+.dlab-bnr-inr {
+    height: 800px;
+}
+
+.login-reg .custom {
+    float: right;
+    text-decoration: none;
+    justify-content: end;
+}
